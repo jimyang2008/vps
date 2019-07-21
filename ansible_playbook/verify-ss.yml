@@ -1,0 +1,8 @@
+---
+- hosts: all
+  remote_user: yangjian
+  tasks:
+  - name: check port open
+    shell: netstat -anlp | grep 7777
+
+

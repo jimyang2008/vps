@@ -1,0 +1,18 @@
+all:
+    hosts:
+    children:
+        webserver:
+            hosts:
+                80vps.yangjian.net
+        vpnserver:
+            hosts:
+                80vps.yangjian.net
+                aws.yangjian.net
+                bw.yangjian.net
+        hk:
+            hosts:
+                80vps.yangjian.net
+        us:
+            hosts:
+                aws.yangjian.net
+                bw.yangjian.net
