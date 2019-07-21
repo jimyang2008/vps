@@ -4,5 +4,6 @@
   tasks:
   - name: check port open
     shell: netstat -anlp | grep 7777
+    ignore_errors: yes
 
 
